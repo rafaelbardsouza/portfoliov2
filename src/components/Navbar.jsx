@@ -1,3 +1,5 @@
+import '../styles/nav.scss'
+
 export default function Navbar() {
     return (
         <nav>

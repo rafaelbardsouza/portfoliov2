@@ -1,5 +1,7 @@
 import { useState } from "react"
 
+import '../styles/hero.scss'
+
 export default function Hero(props) {
 
     const [imgSrc, setImgSrc] = useState('https://archives.bulbagarden.net/media/upload/5/55/Spr_5b_384.png')
