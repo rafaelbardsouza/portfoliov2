@@ -10,7 +10,7 @@
         "name":"YxelWorks Website",
         "description":"My personal freelance website, where I offer professional web development services. Built with ReactJS and SCSS, this site showcases my expertise in web development and design, reflecting my commitment to delivering high-quality solutions for clients.",
         "technologies":["ReactJS", "Scss"],
-        "link":"yxel.tech",
+        "link":"https://yxel.tech",
         "image":"src/assets/img/yxel.png"
     }
 ]
