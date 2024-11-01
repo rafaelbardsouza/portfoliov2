@@ -1,23 +1,16 @@
 [
     {
-        "name": "Project One",
-        "description": "This is a description for Project One.",
-        "technologies": ["JavaScript", "React", "Node.js"],
-        "link": "https://example.com/project-one",
-        "image": "https://via.placeholder.com/150"
+        "name": "Ferry Ticket System",
+        "description": "This project showcases my NestJS skills and integration with SvelteJS through a simple ferry ticketing system. Users can generate tickets that expire after two hours or two uses. While the frontend/authentication is functional, it’s not the main focus. The inspiration for this project came from NYC Ferry, during a recent trip.",
+        "technologies": ["NestJS", "SvelteJS", "MySQL", "Prisma"],
+        "link": "https://github.com/rafaelbardsouza/Ferry-Tickets",
+        "image": "src/assets/img/ferry.jpg"
     },
     {
-        "name": "Project Two",
-        "description": "This is a description for Project Two.",
-        "technologies": ["Python", "Django", "PostgreSQL"],
-        "link": "https://example.com/project-two",
-        "image": "https://via.placeholder.com/150"
-    },
-    {
-        "name": "Project Three",
-        "description": "This is a description for Project Three.",
-        "technologies": ["Java", "Spring Boot", "MySQL"],
-        "link": "https://example.com/project-three",
-        "image": "https://via.placeholder.com/150"
+        "name":"YxelWorks Website",
+        "description":"My personal freelance website, where I offer professional web development services. Built with ReactJS and SCSS, this site showcases my expertise in web development and design, reflecting my commitment to delivering high-quality solutions for clients.",
+        "technologies":["ReactJS", "Scss"],
+        "link":"yxel.tech",
+        "image":"src/assets/img/yxel.png"
     }
 ]
