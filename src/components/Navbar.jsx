@@ -15,7 +15,7 @@ export default function Navbar() {
                 <span className="description">Home</span>
             </div>
             <div className="nav-item">
-                <a href='#'>description</a>
+                <a>description</a>
                 <span className="description">Download CV</span>
             </div>
             <div className="nav-item">
