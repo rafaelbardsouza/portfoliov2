@@ -6,4 +6,44 @@ footer {
 
     height: 40vh;
     background-color: #0033cc;
+
+    .col {
+
+        h1 {
+            background-color: white;
+            border-radius: 15px;
+            padding: 0.5rem;
+            color: #0033cc;
+            font-size: 3rem;
+            transition: all 0.3s ease;
+
+            &:hover {
+                transform: scale(1.1);
+                rotate: -5deg;
+            }
+        }
+
+        h2 {
+            font-size: 2rem;
+        }
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+
+        .links {
+            display: flex;
+            flex-direction: row;
+            gap: 1rem;
+
+            a {
+                transition: all 0.3s ease;
+
+                &:hover {
+                    transform: scale(1.3);
+                }
+            }
+        }
+    }
 }
