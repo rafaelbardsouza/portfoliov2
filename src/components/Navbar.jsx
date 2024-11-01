@@ -7,15 +7,15 @@ export default function Navbar() {
             </div>
             <div className="nav-item">
                 <a href='#about'>description</a>
-                <span className="description">Baixar CV</span>
+                <span className="description">Download CV</span>
             </div>
             <div className="nav-item">
                 <a href='#projects'>work</a>
-                <span className="description">Projetos</span>
+                <span className="description">Projects</span>
             </div>
             <div className="nav-item">
                 <a href='#contact'>mail</a>
-                <span className="description">Contato</span>
+                <span className="description">Contact</span>
             </div>
         </nav>
     )

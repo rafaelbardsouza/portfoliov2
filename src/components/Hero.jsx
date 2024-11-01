@@ -14,10 +14,10 @@ export default function Hero(props) {
     return (
     <section id='hero'>
         <div className='info'>
-          <h1>Olá, eu sou o Rafael. <br/>Desenvolvedor <bold>Full-Stack</bold></h1>
+          <h1>Hello, i am Rafael. <br/><bold>Full-Stack</bold> Developer</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut aliquam augue tristique, tempor magna a, laoreet felis. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
           <div className='buttons'>
-            <button>Contato</button>
+            <button>Contact</button>
             <img onMouseEnter={changeImg} src={imgSrc}/>
           </div>
         </div>
