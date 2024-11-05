@@ -16,8 +16,8 @@ export default function Hero(props) {
     return (
     <section id='hero'>
         <div className='info'>
-          <h1>Hello, i am Rafael,<br/><bold>Full-Stack</bold> Developer</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut aliquam augue tristique, tempor magna a, laoreet felis. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+          <h1>Hello, I am Rafael,<br/><bold>Full-Stack</bold> Developer</h1>
+          <p>Based in Brazil, initially I started programming in Java as a thirteen years old. Currently, I am 19 years old midway through a Software Engineering degree at university, while also working full-time as a Full-Stack and Mobile Developer at TopInvest Educação Financeira.</p>
           <div className='buttons'>
             <button>Contact</button>
             <img onMouseEnter={changeImg} src={imgSrc}/>

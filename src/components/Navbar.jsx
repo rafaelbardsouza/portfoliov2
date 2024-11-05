@@ -15,7 +15,7 @@ export default function Navbar() {
                 <span className="description">Home</span>
             </div>
             <div className="nav-item">
-                <a>description</a>
+                <a href='/cv.pdf' target="_blank" rel="noopener noreferrer">description</a>
                 <span className="description">Download CV</span>
             </div>
             <div className="nav-item">
