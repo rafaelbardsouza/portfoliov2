@@ -73,4 +73,78 @@
             }
         }
     }
+
+    @media (max-width: 1440px) {
+        .projects {
+            .project {
+                height: 25rem;
+            }
+        }
+    }
+
+    @media (max-width: 1024px) {
+        .projects {
+            .project {
+                height: 20rem;
+                .info {
+                    h3 {
+                        font-size: 2rem;
+                    }
+                    p {
+                        font-size: 1rem;
+                    }
+                    small {
+                        font-size: 1rem;
+                    }
+                }
+            }
+        }
+    }
+
+    @media (max-width: 768px) {
+        .projects {
+            grid-template-columns: 1fr;
+            .project {
+                height: 30rem;
+            }
+        }
+    }
+
+    @media (max-width: 425px) {
+        .projects {
+            .project {
+                height: 15rem;
+                .info {
+                    h3 {
+                        font-size: 1.5rem;
+                    }
+                    p {
+                        font-size: 0.8rem;
+                    }
+                    small {
+                        font-size: 0.8rem;
+                    }
+                }
+            }
+        }
+    }
+
+    @media (max-width: 320px) {
+        .projects {
+            .project {
+                height: 12rem;
+                .info {
+                    h3 {
+                        font-size: 1.2rem;
+                    }
+                    p {
+                        font-size: 0.5rem;
+                    }
+                    small {
+                        font-size: 0.5rem;
+                    }
+                }
+            }
+        }
+    }
 }
