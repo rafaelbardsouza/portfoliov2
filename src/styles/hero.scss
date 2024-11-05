@@ -57,4 +57,55 @@
             }
         }
     }
+
+    @media (max-width: 1440px) {
+        .info {
+            width: 80%;
+        }
+    }
+
+    @media (max-width: 1024px) {
+        .info {
+            width: 90%;
+
+            h1 {
+                font-size: 4rem;
+            }
+            p {
+                font-size: 1.5rem;
+            }
+        }
+    }
+
+    @media (max-width: 425px) {
+        .info {
+            h1 {
+                font-size: 4rem;
+            }
+            p {
+                font-size: 1.2rem;
+            }
+
+            .buttons {
+                flex-direction: column;
+                align-items: center;
+
+                button {
+                    width: 100%;
+                    margin-bottom: 2rem;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 320px) {
+        .info {
+            h1 {
+                font-size: 3rem;
+            }
+            p {
+                font-size: 1rem;
+            }
+        }
+    }
 }
