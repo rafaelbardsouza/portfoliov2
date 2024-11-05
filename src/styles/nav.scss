@@ -1,3 +1,18 @@
+.nav-toggle {
+    font-family: material icons;
+    font-size: 2rem;
+    height: 5rem;
+    width: 5rem;
+    background-color: #0033cc;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    position: fixed;
+    display: none;
+    z-index: 10;
+    margin: 1rem;
+}
+
 nav {
     z-index: 9;
     position: fixed;
@@ -9,6 +24,7 @@ nav {
     width: 5rem;
     padding: 1rem;
     border-radius: 10px;
+    transition: left 0.3s ease;
 
     .nav-item {
         cursor: pointer;
@@ -57,5 +73,21 @@ nav {
             background-color: #ffffff50;
             border-radius: 15px;
         }
+    }
+}
+
+@media screen and (max-width: 1220px) {
+    .nav-toggle {
+        display: block;
+    }
+
+    nav {
+        width: 3rem;
+        margin-top: 5rem;
+        left: -250px;
+    }
+
+    nav.open {
+        left: 0;
     }
 }
