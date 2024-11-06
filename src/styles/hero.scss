@@ -58,13 +58,13 @@
         }
     }
 
-    @media (max-width: 1440px) {
+    @media (max-width: 1560px) {
         .info {
             width: 80%;
         }
     }
 
-    @media (max-width: 1024px) {
+    @media (max-width: 1166px) {
         .info {
             width: 90%;
 
@@ -74,6 +74,12 @@
             p {
                 font-size: 1.5rem;
             }
+        }
+    }
+
+    @media (max-width: 561px) {
+        .info {
+            margin-bottom: 10rem;
         }
     }
 
@@ -98,7 +104,7 @@
         }
     }
 
-    @media (max-width: 320px) {
+    @media (max-width: 333px) {
         .info {
             h1 {
                 font-size: 3rem;
