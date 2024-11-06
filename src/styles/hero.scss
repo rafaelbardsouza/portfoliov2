@@ -77,6 +77,12 @@
         }
     }
 
+    @media (max-width: 582px) {
+        .info {
+            margin-top: 8rem;
+        }
+    }
+
     @media (max-width: 425px) {
         .info {
             h1 {
