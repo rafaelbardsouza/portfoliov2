@@ -110,6 +110,12 @@
         }
     }
 
+    @media (max-width: 561px) {
+        .projects {
+            margin-top: 10rem;
+        }
+    }
+
     @media (max-width: 425px) {
         .projects {
             .project {
